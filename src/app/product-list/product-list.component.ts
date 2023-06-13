@@ -1,4 +1,3 @@
-// src/app/product-list/product-list.component.ts
 import { Component, OnInit } from '@angular/core';
 import { ProductService, Product } from '../services/product.service';
 
