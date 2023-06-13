@@ -1,0 +1,12 @@
+
+<div class="product-list">
+    <div *ngFor="let product of products" class="product-item">
+      <h2>{{product.title}}</h2>
+      <p class="price">Price: {{product.price}}</p>
+      <button routerLink="/product/{{product.id}}">Details</button>
+    </div>
+  </div>
+  <div class="pagination">
+    <button (click)="prevPage()">Previous Page</button>
+    <button (click)="nextPage()">Next Page</button>
+  </div>
